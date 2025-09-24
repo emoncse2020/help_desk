@@ -3,7 +3,7 @@ import { MdOutlineMenu } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="bg-purple-200 shadow-md border-b-[0.5px] border-gray-300">
+    <nav className="bg-purple-200 shadow-md border-b-[0.5px] border-gray-300 sticky z-20 top-0">
       <Container>
         <header className="px-8 py-4 flex justify-between items-center">
           <h1 className="text-3xl">TM ##</h1>
